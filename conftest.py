@@ -3,8 +3,8 @@ from selenium import webdriver
 from user import User
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait 
-from locators import Urls, LoginPage, ProfilePage, BuilderPage
-
+from locators import LoginPage, BuilderPage
+from data import Urls
 
 
 

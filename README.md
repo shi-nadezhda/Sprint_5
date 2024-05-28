@@ -10,6 +10,7 @@ https://stellarburgers.nomoreparties.site
 - conftest.py - фикстуры
 - locators.py - локаторы
 - user.py - пользователи для авторизации и регистрации
+- data.py - данные
 
 ### Запуск тестов: 
 `pytest -v`

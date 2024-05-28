@@ -1,6 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait 
-from locators import Urls, BuilderPage
+from locators import BuilderPage
+from data import Urls
 
 class TestBuilder:
     def test_bun_tab_is_clicked_and_available(self, driver):

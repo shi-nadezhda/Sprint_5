@@ -1,6 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait 
-from locators import Urls, Header, ProfilePage, LoginPage
+from locators import Header, ProfilePage, LoginPage
+from data import Urls
 
 class TestProfile:
     def test_unauthorise_profile_open_login_redirect_success(self, driver):

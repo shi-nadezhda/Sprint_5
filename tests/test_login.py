@@ -1,8 +1,8 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait 
-from locators import RegisterPage, BuilderPage, Urls, Header, LoginPage, ForgotPasswordPage
+from locators import RegisterPage, BuilderPage, Header, LoginPage, ForgotPasswordPage
 from conftest import User
-
+from data import Urls
 
 class TestLogin:
     def test_login_click_login_account_button_main_page_success(self, driver):

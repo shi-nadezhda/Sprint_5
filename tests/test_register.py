@@ -1,8 +1,9 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait 
 
-from locators import RegisterPage, Urls, LoginPage
+from locators import RegisterPage, LoginPage
 from user import RandomUser
+from data import Urls
 
 class TestRegister:
     def test_register_incorrect_password_error(self, driver):
